@@ -1,0 +1,132 @@
+.navbar-custom   {
+    background-color: #0056A8;
+    padding: 0;
+    /* height: 70px; */
+   
+}
+.body-custom {
+    background-color: #eeee;
+}
+
+
+.nav-user{
+    color: white;
+}
+
+/* .navbar .navbar-brand {
+    padding: 10px;
+    background-color: white;
+} */
+#logo{
+    padding: 5px;
+    background-color: white;
+}
+.span {
+    color: white;
+    display: block;
+    text-align: left;
+}
+
+#rectangle{
+    padding-left: 20px;
+    width:10;
+    height:80px;
+    background:rgb(255, 255, 255);
+}
+
+.jumbotron{
+    background-color: #7C90A6;
+}
+#dlogo{
+    width: 100px;
+    height: 80px;
+}
+#access{
+    width: 50px;
+    height: 50px;
+}
+#sand{
+    width: 60px;
+    height: 65px;
+}
+#approve{
+    width: 65px;
+    height: 70px;
+}
+#reject{
+    width: 65px;
+    height: 70px;
+}
+#verified{
+    width: 65px;
+    height: 70px;
+}
+.card-title, .card-text{
+    text-size-adjust: 20px;
+    text-align: center;
+}
+.dataTables_filter input {
+    color: #0056A8
+}
+
+.display-5{
+    text-size-adjust: 20px;
+}
+#notif{
+    top: 60px;
+    right: 20px;
+    left: unset;
+    min-width: 350px;
+    box-shadow: 0px 5px 7px -1px #c1c1c1;
+    padding-bottom: 0px;
+    padding: 0px;
+    }
+#information{
+    background-color: #7C90A6;
+}
+#expected_date {
+    display:none;
+  }
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+#myChart {
+    max-width: 100%;
+    max-height: 300px;
+}
+input[id="uploadimage"] {
+    max-width: 200px;
+    
+  }
+
+  #img-upload{
+    max-width: 50px;
+    max-height: 50px;
+}
+.modal.custom .modal-dialog {
+    max-width: 75%;
+}
+.card-body {
+    max-width:100%
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "jelajahi";
+}
+
+input[type=file]::file-selector-button {
+    border: 1px solid #b6b6b6;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: #ffffff;
+    transition: 0.1s;
+    content: "Pilih File";
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+  }
+
+

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+         #rectangle {
+            left: 0;
+             bottom: 0;
+            width:100%;
+            height:50px;
+            background:#0056A8;
+            position:fixed;
+           
+        }
+        #panasonic{
+          margin: 10px;
+        }
+      body {
+        font-family: "sans-serif", sans-serif;
+        background: linear-gradient(to bottom, #FF7676, #FF7676 50%, #E9E9E9 50% );
+        background-attachment:fixed;
+          background-repeat: no-repeat;
+        font-size: 19px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 3%;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      header {
+        width: 98%;
+      }
+
+      #logo {
+        max-width: 120px;
+        margin: 3% 0 3% 3%;
+        float: left;
+      }
+
+      #wrapper {
+        background-color: #ffffff;
+        border-radius: 20px;
+      }
+
+      #social {
+        float: right;
+        margin: 3% 2% 4% 3%;
+        list-style-type: none;
+      }
+
+      #social > li {
+        display: inline;
+      }
+
+      #social > li > a > img {
+        max-width: 35px;
+      }
+
+      h1,
+      p {
+        margin: 3%;
+      }
+      .btn {
+        float: right;
+        margin: 0 2% 4% 0;
+        background-color: #303840;
+        color: #f6faff;
+        text-decoration: none;
+        font-weight: 800;
+        padding: 8px 12px;
+        border-radius: 8px;
+        letter-spacing: 2px;
+      }
+      #content{
+          background-color: #D7D7D7;
+          padding: 10px;
+          margin: 50px;
+      }
+
+      hr {
+        height: 1px;
+        background-color: #303840;
+        clear: both;
+        width: 96%;
+        margin: auto;
+      }
+      table tr td {
+          padding: 5px;
+      }
+
+      #contact {
+        text-align: center;
+        padding-bottom: 3%;
+        line-height: 16px;
+        font-size: 12px;
+        color: #303840;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="logo">
+          <img
+            src="https://mdbgo.io/dawidadach/responsiveemail/img/logo.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <ul id="social">
+            <li>
+              <a href="#" target="_blank"
+                ><img
+                  src="https://mdbgo.io/dawidadach/responsiveemail/img/fb-color.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><img
+                  src="https://mdbgo.io/dawidadach/responsiveemail/img/in-color.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><img
+                  src="https://mdbgo.io/dawidadach/responsiveemail/img/tw-color.png"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"
+                ><img
+                  src="https://mdbgo.io/dawidadach/responsiveemail/img/yt-color.png"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div id="banner">
+        <img
+          src=""
+          alt=""
+        />
+      </div>
+      <div class="one-col">
+        <h1 style="text-align: center;">The goods haven’t been returned.</h1>
+
+        <p style="text-align: center;">
+            Return of Goods: General/BMO/0003.
+            PT. Sadar Sana has not returned the goods.
+            Expected return date 05 October 2021
+        </p>
+        <div class="container" id="content">
+        <span>
+            Detail Gate Pass
+            <table class="table table-borderless">
+                <tr>
+                  <td>No Gate Pass</td>
+                  <td>:</td>
+                  <td>General/BMO/0002</td>
+                  <td>Goods Status</td>
+                  <td>:</td>
+                  <td>Loaned</td>
+                </tr>
+                  <td>Issued By</td>
+                  <td>:</td>
+                  <td>User</td>
+                  <td>Expected Date of Return</td>
+                  <td>:</td>
+                  <td><?php echo date('d-m-Y'); ?></td>
+                </tr>
+              </table>
+              <table class="table table-borderless">
+                <tr>
+                  <td>Name of Vendor</the>
+                  <td>:</td>
+                  <td>PT. Sadar Sana</td>
+                </tr>
+                <tr>
+                  <td>Name of Driver</th>
+                  <td>:</td>
+                  <td>Budi</td>
+                </tr>
+                <tr>
+                  <td>Vehicle Regn No</td>
+                  <td>:</td>
+                  <td>Bp 29467 XZ</td>
+                </tr>
+              </table>
+              <p>List Goods</p>
+              <table class="table table-borderless" id='goods'>
+                  <tr > 
+                    <td>1.</td>
+                    <td>Bowl Feeder</td>
+                    <td>1</td>
+                    <td>Unit</td>
+                  </tr>
+              </table> 
+         
+        </span>
+         </div>
+        
+
+        <hr />
+
+        <footer>
+          <p id="contact">
+            PT. Panasonic Industrial Devices Batam <br />
+            Puri Industrial Park 2000 Batam Centre <br />
+            Kelurahan Baloi Permai, Batam 29463 Indonesia <br />
+            Telp : (0778) - 463688 Fax : (0778) - 465070
+          </p>
+          <div class="row" id="rectangle">
+            <div class="col" id="panasonic">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogo-all.ru%2Fuploads%2Fposts%2F2016-04%2F0_panasonic_symbol.jpg&f=1&nofb=1" width="200px"> 
+          </div> 
+          <div class="col">
+            <span style="color: white;" class="text-weight: bold;" id="panasonic" >
+              </span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
