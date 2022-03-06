@@ -33,7 +33,7 @@
               <tr>
                 <td>Gate Pass No</td>
                 <td>:</td>
-                <td>General/BMO/0011</td>
+                <td>G/BMO/0011</td>
 
                 <td>Department</td>
                 <td>:</td>

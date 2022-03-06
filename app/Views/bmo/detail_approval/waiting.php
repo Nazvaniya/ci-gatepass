@@ -36,7 +36,7 @@
               <tr>
               <td>Nomor Gate Pass</td>
                 <td>:</td>
-                <td>General/BMO/0011</td>
+                <td>G/BMO/0011</td>
 
                 <td>Departemen</td>
                 <td>:</td>
@@ -79,7 +79,7 @@
       <div class="form-row p-2">
       <div class="form-group col-sm-3">
           <label for="inputApprovalStatus">Status Persetujuan Pengajuan</label>
-          <input type="text" class="form-control" id="approval_status" value="Waiting Approval" readonly>
+          <input type="text" class="form-control" id="approval_status" value="Menunggu Persetujuan" readonly>
         </div>
         <div class="form-group col-sm-3">
           <label for="inputTakeDate">Tanggal Persetujuan Pengajuan</label>

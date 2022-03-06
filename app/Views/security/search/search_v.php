@@ -1,4 +1,4 @@
-<?= $this->extend('templates/bmo') ?>
+<?= $this->extend('templates_security/index') ?>
 <?= $this->section('content') ?>
 <div class="container mt-2">
 
@@ -54,8 +54,7 @@
                 <label for="from_date">Vendor</label>
                 <select class="form-control select2" id="name_vendor" name="vendor_name">
                   <option>Pilih Vendor</option>
-                  <option>PT. Duta Computer</option>
-                  <option>PT. Darma Pacific</option>
+                  <option>PT. Tropolis</option>
                 </select>
               </div>
             </div>
@@ -64,7 +63,7 @@
                 <label for="to_date">Sopir</label>
                 <select class="form-control select2 otherdropdown" id="name_driver" name="driver_name">
                   <option>Pilih Sopir</option>
-                  <option>Budi</option>
+                  <option>Ron</option>
                   <option>Andi</option>
                   <option value="other">Lainnya</option>
                 </select>
@@ -111,24 +110,24 @@
         <tbody>
           <tr>
             <td>1</td>
-            <td>RFID Card</td>
-            <td>G/BMO/0011</td>
-            <td>Abdul Shamad Rennu</td>
-            <td>BMO</td>
+            <td>Pallet</td>
+            <td>FG-M/1221/0003</td>
+            <td>Gunawan</td>
+            <td>Logistic</td>
             <td>Budi</td>
             <td><?php echo date('d-m-Y'); ?></td>
-            <td><span class="badge badge-info">Returnable</span></td>
+            <td><span class="badge badge-info">Dikembalikan</span></td>
             <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "+5days")); ?></td>
           </tr>
           <tr>
             <td>2</td>
-            <td>RFID Reader</td>
-            <td>G/BMO/0011</td>
-            <td>Abdul Shamad Rennu</td>
-            <td>BMO</td>
+            <td>Box</td>
+            <td>FG-M/1221/0003</td>
+            <td>Gunawan</td>
+            <td>Logistic</td>
             <td>Budi</td>
             <td><?php echo date('d-m-Y'); ?></td>
-            <td><span class="badge badge-info">Returnable</span></td>
+            <td><span class="badge badge-info">Dikembalikan</span></td>
             <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "+5days")); ?></td>
           </tr>
         </tbody>

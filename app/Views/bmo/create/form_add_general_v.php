@@ -19,7 +19,7 @@
       <div class="form-row p-2">
         <div class="form-group col-sm-4">
           <label for="inputNoGatepass">Nomor Gate Pass</label>
-          <input type="text" class="form-control" id="no_gatepass" value="General/BMO/0011" readonly>
+          <input type="text" class="form-control" id="no_gatepass" value="G/BMO/0011" readonly>
         </div>
         <div class="form-group col-sm-4">
           <label for="inputdate">Tanggal</label>
@@ -176,7 +176,6 @@
 <script>
   $(document).ready(function() {
     let no = 1;
-    var rowCount = 1;
     $(".add_item_btn").click(function(e) {
       e.preventDefault();
       $("#goodslist").append(`
@@ -244,7 +243,7 @@
 
         $($tr).find('td').each (function (index, td) {
           if(index == 6) {
-            // console.log($(td).children().disabled)
+            //  console.log($(td).children())
             if(returnType == "Dikembalikan") {
               $(td).children().prop("disabled", false);
             }else{
@@ -253,8 +252,8 @@
           }
         });
       })
-    //   var el = document.getElementById("select[]");
-    // el.addEventListener("change", function() {
+  //     var el = document.getElementById("select");
+  //   el.addEventListener("change", function() {
   //   var elems = document.querySelectorAll('#estimation')
   //   console.log(el);
   //   for (var i = 0; i < elems.length; i++) {
@@ -274,7 +273,6 @@
       var row = $select;
       
     }
-
     
     
     $(document).on('click', '.remove_item_btn', function(e) {

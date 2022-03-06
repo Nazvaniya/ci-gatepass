@@ -111,9 +111,9 @@
           <tr>
             <td>1</td>
             <td>Pallet</td>
-            <td>Logistic/1221/0003</td>
+            <td>FG-M/1221/0003</td>
             <td>Gunawan</td>
-            <td>BMO</td>
+            <td>Logistic</td>
             <td>Budi</td>
             <td><?php echo date('d-m-Y'); ?></td>
             <td><span class="badge badge-info">Dikembalikan</span></td>
@@ -122,9 +122,9 @@
           <tr>
             <td>2</td>
             <td>Box</td>
-            <td>Logistic/1221/0003</td>
+            <td>FG-M/1221/0003</td>
             <td>Gunawan</td>
-            <td>BMO</td>
+            <td>Logistic</td>
             <td>Budi</td>
             <td><?php echo date('d-m-Y'); ?></td>
             <td><span class="badge badge-info">Dikembalikan</span></td>

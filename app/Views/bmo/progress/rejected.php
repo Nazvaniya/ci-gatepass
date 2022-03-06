@@ -39,7 +39,7 @@
                     <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "-1days")); ?></td>
                     <td>
                         <a href="<?= base_url("bmo/detail_approval/rejected"); ?>">
-                            General/BMO/0009
+                        G/BMO/0009
                         </a>
                     </td>
                     <td>Abdul Shamad Rennu</td>
@@ -51,7 +51,7 @@
                     <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "-1days")); ?></td>
                     <td>
                         <a href="<?= base_url("bmo/detail_approval/rejected"); ?>">
-                            General/BMO/0003
+                        G/BMO/0003
                         </a>
                     </td>
                     <td>Abdul Shamad Rennu</td>

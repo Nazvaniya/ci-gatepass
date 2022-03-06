@@ -36,6 +36,10 @@ class Security extends BaseController
     {
          return view('security/report/report_v');
     }
+    public function search()
+    {
+         return view('security/search/search_v');
+    }
     public function verification($page){
         switch($page){
             case 'general':

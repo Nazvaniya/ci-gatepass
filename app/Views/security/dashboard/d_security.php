@@ -98,7 +98,7 @@
                 <td><?= date("d-m-Y") ?></td>
                 <td>
                     <a href="<?= base_url("security/detail/general_info"); ?>">
-                    General/BMO/0011
+                    G/BMO/0011
                     </a>
                 </td>
                 <td>Rennu</td>
@@ -122,7 +122,7 @@
             <td><?= date("d-m-Y") ?></td>
                 <td>
                     <a href="<?= base_url("security/detail/logistic_info"); ?>">
-                    Logistic/1221/0002
+                    FG-M/1221/0002
                     </a>
                 </td>
                 <td>Gunawan</td>
@@ -134,7 +134,7 @@
                 <td><?= date("d-m-Y") ?></td>
                 <td>
                     <a href="<?= base_url("security/detail/general_info"); ?>">
-                  	General/BMO/0010
+                  	G/BMO/0010
                     </a>
                 </td>
                 <td>Rennu</td>
@@ -146,7 +146,7 @@
             <td><?= date("d-m-Y") ?></td>
                 <td>
                     <a href="#">
-                        General/BMO/0003
+                        G/BMO/0003
                     </a>
                 </td>
                 <td>April</td>

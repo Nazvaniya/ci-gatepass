@@ -71,7 +71,7 @@
   <div class="form-row p-2">
     <div class="form-group col-sm-3">
       <label for="inputApprovalStatus">Submission Approval Status</label>
-      <input type="text" class="form-control" id="approval_status" value="Rejected" readonly>
+      <input type="text" class="form-control" id="approval_status" value="Ditolak" readonly>
     </div>
   <div class="form-group col-sm-3">
       <label for="inputTakeDate">Submission Approved Date</label>

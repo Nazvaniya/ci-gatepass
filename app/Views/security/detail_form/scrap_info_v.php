@@ -7,7 +7,7 @@
       <div class="col-sm-1">
         <img id="access" src="<?= base_url('/image/bin.png'); ?>">
       </div>
-      <div class="col-sm-11 p-2">
+      <div class="col-7 p-2">
         <h5 class="display-5">Detail Limbah Scrap Gate Pass</h5>
       </div>
       <div class="col-4 text-right">

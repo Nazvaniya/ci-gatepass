@@ -36,7 +36,7 @@
               <tr>
                 <td>Nomor Gate Pass</td>
                 <td>:</td>
-                <td>General/BMO/0011</td>
+                <td>G/BMO/0011</td>
 
                 <td>Departemen</td>
                 <td>:</td>

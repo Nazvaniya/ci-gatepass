@@ -41,7 +41,7 @@
         <tr>
         <td>Status Barang</td>
           <td>:</td>
-          <td id="goods_status">Loaned</td>
+          <td id="goods_status">Dipinjamkan</td>
           <td>Bagian</td>
           <td>:</td>
           <td>Logistic</td>
@@ -71,7 +71,7 @@
   <div class="form-row p-2">
     <div class="form-group col-sm-3">
     <label for="inputApprovalStatus">Status Persetujuan Pengajuan</label>
-      <input type="text" class="form-control" id="approval_status" value="Approved" readonly>
+      <input type="text" class="form-control" id="approval_status" value="Disetujui" readonly>
     </div>
   <div class="form-group col-sm-3">
   <label for="inputTakeDate">Tanggal Persetujuan Pengajuan</label>
@@ -89,7 +89,7 @@
   <div class="form-row p-2">
     <div class="form-group col-sm-3">
     <label for="inputValidatorStatus">Status Verifikasi Security</label>
-      <input type="text" class="form-control" id="Security Verifi_status" value="Verified" readonly>
+      <input type="text" class="form-control" id="Security Verifi_status" value="Diverifikasi" readonly>
     </div>
   <div class="form-group col-sm-3">
   <label for="inputTakeDateValid">Tanggal Terverifikasi Security</label>
@@ -160,10 +160,10 @@
                 <td>1</td>
                 <td>Pallet</td>
                 <td>5 Unit</td>
-                <td>Returnable</td> 
+                <td>Dikembalikan</td> 
                 <td>Untuk disimpan di tropolis</td> 
                 <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "+2days")); ?></td>
-                <td>Loaned</td>
+                <td>Dipinjamkan</td>
                 <td>3 Unit</td>
             </tr>
         </tbody>

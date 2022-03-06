@@ -33,7 +33,7 @@
               <tr>
               <td>Nomor Gate Pass</td>
                 <td>:</td>
-                <td>General/BMO/0011</td>
+                <td>G/BMO/0011</td>
 
                 <td>Departemen</td>
                 <td>:</td>
@@ -72,11 +72,11 @@
           </div>
         </div>
       </div>
-      <div class="px-3 py-1 text-white rounded shadow" id="information">Approval Information</div>
+      <div class="px-3 py-1 text-white rounded shadow" id="information">Informasi Persetujuan</div>
       <div class="form-row p-2">
         <div class="form-group col-sm-3">
         <label for="inputApprovalStatus">Status Persetujuan Pengajuan</label>
-          <input type="text" class="form-control" id="approval_status" value="Approved" readonly>
+          <input type="text" class="form-control" id="approval_status" value="Disetujui" readonly>
         </div>
         <div class="form-group col-sm-3">
         <label for="inputTakeDate">Tanggal Persetujuan Pengajuan</label>
@@ -94,7 +94,7 @@
       <div class="form-row p-2">
         <div class="form-group col-sm-3">
         <label for="inputValidatorStatus">Status Verifikasi Security </label>
-          <input type="text" class="form-control" id="validation_status" value="Waiting Verify" readonly>
+          <input type="text" class="form-control" id="validation_status" value="Menunggu Verifikasi" readonly>
         </div>
         <div class="form-group col-sm-3">
         <label for="inputTakeDateValid">Tanggal Terverifikasi Security </label>

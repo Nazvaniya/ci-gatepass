@@ -36,7 +36,7 @@
               <tr>
                 <td>Nomor Gate Pass</td>
                 <td>:</td>
-                <td>General/BMO/0008</td>
+                <td>G/BMO/0008</td>
 
                 <td>Departemen</td>
                 <td>:</td>
@@ -79,7 +79,7 @@
       <div class="form-row p-2">
         <div class="form-group col-sm-3">
           <label for="inputApprovalStatus">Status Persetujuan Pengajuan</label>
-          <input type="text" class="form-control" id="approval_status" value="Approved" readonly>
+          <input type="text" class="form-control" id="approval_status" value="Disetujui" readonly>
         </div>
         <div class="form-group col-sm-3">
           <label for="inputTakeDate">Tanggal Persetujuan Pengajuan</label>
@@ -97,7 +97,7 @@
       <div class="form-row p-2">
         <div class="form-group col-sm-3">
           <label for="inputValidatorStatus">Status Verifikasi Security</label>
-          <input type="text" class="form-control" id="validation_status" value="Verified" readonly>
+          <input type="text" class="form-control" id="validation_status" value="Diverifikasi" readonly>
         </div>
         <div class="form-group col-sm-3">
           <label for="inputTakeDateValid">Tanggal Terverifikasi Security</label>

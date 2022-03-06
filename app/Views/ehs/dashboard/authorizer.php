@@ -172,30 +172,6 @@
                 <td>EHS</td>
                 <td ><span  class="badge badge-danger">  Revisi Ditolak </span></td>
             </tr>
-            <tr>
-                <td>6</td>
-                <td>05-01-2022</td>
-                <td>
-                    <a href="#">
-                        General/BMO/0005
-                    </a>
-                </td>
-                <td>April</td>
-                <td>EHS</td>
-                <td ><span  class="badge badge-info"> Dipinjamkan </span></td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>03-01-2022</td>
-                <td>
-                    <a href="#">
-                        General/BMO/0003
-                    </a>
-                </td>
-                <td>April</td>
-                <td>EHS</td>
-                <td ><span  class="badge badge-success"> Selesai </span></td>
-            </tr>
         </tbody>
     </table>
 </div>

@@ -39,7 +39,7 @@
                     <td><?= date("d-m-Y") ?></td>
                     <td>
                         <a href="<?= base_url("bmo/detail/waiting"); ?>">
-                            General/BMO/0011
+                        G/BMO/0011
                         </a>
                     </td>
                     <td>Abdul Shamad Rennu</td>

@@ -115,7 +115,7 @@
             <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "-2days")); ?></td>
             <td>
               <a href="<?= base_url("bmo/detail/extend_waiting"); ?>">
-                General/BMO/0008
+              G/BMO/0008
               </a>
             </td>
             <td>Abdul Shamad Rennu</td>
@@ -128,7 +128,7 @@
           <td><?= date("d-m-Y") ?></td>
             <td>
               <a href="<?= base_url("bmo/detail/completed"); ?>">
-                General/BMO/0011
+              G/BMO/0011
               </a>
             </td>
             <td>Abdul Shamad Rennu</td>
@@ -140,7 +140,7 @@
             <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "-1days")); ?></td>
             <td>
               <a href="#">
-                General/BMO/0009
+              G/BMO/0009
               </a>
             </td>
             <td>Abdul Shamad Rennu</td>
@@ -152,7 +152,7 @@
             <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "-2days")); ?></td>
             <td>
               <a href="<?= base_url("bmo/detail_approval/verified"); ?>">
-                General/BMO/0006
+              G/BMO/0006
               </a>
             </td>
             <td>Abdul Shamad Rennu</td>
@@ -164,7 +164,7 @@
             <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "-2days")); ?></td>
             <td>
               <a href="<?= base_url("bmo/detail_approval/verified"); ?>">
-                General/BMO/0005
+              G/BMO/0005
               </a>
             </td>
             <td>Abdul Shamad Rennu</td>
@@ -176,7 +176,7 @@
             <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "-2days")); ?></td>
             <td>
               <a href="<?= base_url("bmo/detail_approval/verified"); ?>">
-                General/BMO/0004
+              G/BMO/0004
               </a>
             </td>
             <td>Abdul Shamad Rennu</td>
@@ -188,7 +188,7 @@
             <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "-1days")); ?></td>
             <td>
               <a href="#">
-                General/BMO/0003
+              G/BMO/0003
               </a>
             </td>
             <td>Abdul Shamad Rennu</td>
@@ -200,7 +200,7 @@
             <td><?php echo date('d-m-Y', strtotime(date('d-m-Y') . "-2days")); ?></td>
             <td>
               <a href="<?= base_url("bmo/detail_approval/verified"); ?>">
-                General/BMO/0001
+              G/BMO/0001
               </a>
             </td>
             <td>Abdul Shamad Rennu</td>

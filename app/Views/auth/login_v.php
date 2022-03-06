@@ -37,16 +37,16 @@
         </div>
     </nav>
     <div class="container mt-5">
-
         <div class="row-12 justify-content-center">
             <div class="card card-custom">	
-             <div class="card-body shadow">
+             <div class="card-body shadow rounded-5">
                     <div class="row justify-content-around">
-                     
-                        <div class="col-sm-4 align-self-center" >
+                        <div class="col-6">
+                        <div class="col-sm-4 px-5 align-self-center" >
                             <img src="<?php echo base_url('\image/gatepass.png'); ?>" style="width: 500px; max-height:100%" />
                         </div>
-                        <div class="col-sm-4 py-5">
+                        </div>
+                        <div class="col-sm-6 py-5 px-5">
                             <div class="text-center">
                                 <h4>MASUK</h4>
                             </div>
@@ -61,7 +61,7 @@
                                 </div>
                                 <div class="form-group form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                    <label class="form-check-label" for="exampleCheck1">Ingat Saya</label>
                                 </div>
                                 <div class="row align-items-end">
                                     <div class="col mt-auto">

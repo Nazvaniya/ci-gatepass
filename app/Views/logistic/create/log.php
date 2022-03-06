@@ -86,7 +86,7 @@
                 <tr>
                   <td>
                     <?php $i = 1;
-                    echo $i++ ?>
+                    echo $i ?>
                   </td>
                   <td>
                     <select class="select2 form-control" name="type_goods[]" data-placeholder="Pilih Barang">
@@ -226,13 +226,12 @@
       });
   }
   $(document).ready(function() {
-    let no = 1;
+    var no = 1;
     $(".add_item_btn").click(function(e) {
       e.preventDefault();
       $("#goodslist").append(`  
       <tr>
-            <td>
-              ${++no}
+            <td>    
             </td>
             <td>  
             <select class="select2 form-control" name="type_goods[]" data-placeholder="Pilih Barang">
@@ -264,7 +263,7 @@
                 </select>
             </td>
             <td>
-            <select id="select[]" class="form-control"  name="return_type[]">
+            <select id="select" class="form-control returntype"  name="return_type[]">
               <option id="unreturnable" name="unreturnable[]">Tidak Dikembalikan</option>
               <option id="returnable" name="returnable[]">Dikembalikan</option>
             </select>
@@ -282,26 +281,59 @@
           </tr>
       
   `);
+
+
+  var addSerialNumber = function () {
+    var i = 0
+    $('table tr').each(function(index) {
+        $(this).find('td:nth-child(1)').html(index+1-1);
+    });
+};
+
+addSerialNumber();
+
+
+
       $('.select2').select2({
 
         theme: 'bootstrap4',
         allowClear: true
       });
+
+           $('.returntype').change(function(){ 
+        var $tr = $(this).parent().parent();
+        var returnType = $(this).val();
+        // console.log(returnType);
+        // console.log($tr.children());
+
+        $($tr).find('td').each (function (index, td) {
+          if(index == 6) {
+            //  console.log($(td).children())
+            if(returnType == "Dikembalikan") {
+              $(td).children().prop("disabled", false);
+            }else{
+              $(td).children().prop("disabled", true);
+            }
+          }
+        });
+      })
       
-      var el = document.getElementById("select[]");
-  el.addEventListener("change", function() {
-    var elems = document.querySelectorAll('#estimation')
-    console.log(el);
-    // var elems = document.querySelectorAll('#estimation')
-    for (var i = 0; i < elems.length; i++) {
-      elems[i].disabled = true;
-    }
-    if (this.selectedIndex === 0) {
-      document.querySelector('#estimation').disabled = true;
-    } else {
-      document.querySelector('#estimation').disabled = false;
-    }
-  }, false);
+
+      
+  //     var el = document.getElementById("select");
+  // el.addEventListener("change", function() {
+  //   var elems = document.querySelectorAll('#estimation')
+  //   console.log(el);
+  //   // var elems = document.querySelectorAll('#estimation')
+  //   for (var i = 0; i < elems.length; i++) {
+  //     elems[i].disabled = true;
+  //   }
+  //   if (this.selectedIndex === 0) {
+  //     document.querySelector('#estimation').disabled = true;
+  //   } else {
+  //     document.querySelector('#estimation').disabled = false;
+  //   }
+  // }, false);
 
 
 
@@ -310,7 +342,7 @@
       e.preventDefault();
       let row_item = $(this).parent().parent();
       $(row_item).remove();
-      no--;
+      removeSerialNumber()
     });
   });
 </script>

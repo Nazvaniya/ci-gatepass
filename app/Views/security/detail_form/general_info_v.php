@@ -127,18 +127,6 @@
           <div class="tab-pane" id="informasi_barang" role="tabpanel" aria-labelledby="profile-tab">
 
             <div class="p-1 text-white rounded shadow" id="information">Informasi Barang</div>
-            <div class="form-row p-2">
-              <div class="form-group col-sm-4" id="data_expected_date">
-                <label for="data_expected_date">
-                  Perkiraan Semua Barang Dikembalikan
-                </label>
-                <input type="text" class="form-control" name="data_expected_date" value="<?php echo date('d-m-Y', strtotime(date('d-m-Y') . "+5days")); ?>" readonly>
-              </div>
-              <div class="form-group col-sm-4" id="data_actual_date">
-                <label for="data_actual_date">Tanggal Pengembalian Sebenarnya</label>
-                <input type="text" class="form-control" name="data_actual_date" value="N/A" readonly>
-              </div>
-            </div>
             <div class="row p-2">
               <div class="mb-3 col-sm-10">
                 <div class="table-responsive">

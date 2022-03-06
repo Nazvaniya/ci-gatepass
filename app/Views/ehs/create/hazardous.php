@@ -35,7 +35,7 @@
       <div class="form-row p-2">
         <div class="form-group col-sm-4">
           <label for="inputissued">Dikeluarkan Oleh</label>
-          <input type="text" class="form-control" id="issued" value="User" readonly>
+          <input type="text" class="form-control" id="issued" value="April" readonly>
         </div>
         <div class="form-group col-sm-4">
           <label for="inputDepartment">Departemen</label>

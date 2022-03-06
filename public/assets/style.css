@@ -110,8 +110,13 @@ input[id="uploadimage"] {
     max-width:100%
 }
 
+.card-custom { 
+    max-width: 100%;
+    border-radius: 25px;
+}
+
 .custom-file-input:lang(en)~.custom-file-label::after {
-    content: "jelajahi";
+    content: "Telusuri";
 }
 
 input[type=file]::file-selector-button {
@@ -128,5 +133,5 @@ input[type=file]::file-selector-button {
     border: 1px solid #000000;
     color: #ffffff;
   }
-
+  
 
